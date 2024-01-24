@@ -1,6 +1,6 @@
 Add the following into local .zshrc to sync settings:
 ```
-if [ -r ~/.dotfiles/.zshrc ]; then
-    source ~/.dotfiles/.zshrc
+if [ -r ~/dot/.zshrc ]; then
+    source ~/dot/.zshrc
 fi
 ```
