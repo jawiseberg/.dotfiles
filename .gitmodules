@@ -1,3 +1,6 @@
 [submodule ".tmux/plugins/tpm/tpm"]
 	path = .tmux/plugins/tpm/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = git@github.com:ohmyzsh/ohmyzsh.git

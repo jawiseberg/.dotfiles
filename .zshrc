@@ -1,7 +1,7 @@
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/dot/ohmyzsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(macos iterm2 tmux git brew aliases)
+plugins=(tmux git aliases)
 
 source $ZSH/oh-my-zsh.sh
 
