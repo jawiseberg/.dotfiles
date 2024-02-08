@@ -1,6 +1,6 @@
-export ZSH="$HOME/ohmyzsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(tmux git aliases)
+plugins=(tmux git themes aliases)
 
 source $ZSH/oh-my-zsh.sh
