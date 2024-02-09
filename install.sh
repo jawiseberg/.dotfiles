@@ -91,3 +91,11 @@ if [ -f ~/.dotfiles/.tmux.conf ]; then
 else
     echo -e "${RED}[ERROR]${RESET} .tmux.conf not found in .dotfiles directory${RESET}"
 fi
+
+# Create symbolic link for nvim folder
+if [ -d ~/.dotfiles/nvim ]; then
+    ln -sf ~/.dotfiles/nvim ~/.config/
+    echo -e "${GREEN}[SUCCESS]${RESET} nvim configuration loaded${RESET}"
+else
+    echo -e "${RED}[ERROR]${RESET} nvim folder not found in .dotfiles directory${RESET}"
+fi
